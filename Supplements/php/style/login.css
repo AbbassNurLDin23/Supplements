@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-color: #333;
+    color: blue;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: blue;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1,
+h2 {
+    color: blue;
+}
+
+.homework {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: blue;
+    color: black;
+    border-radius: 5px;
+    position: relative;
+}
+
+.description {
+    display: none;
+    padding-top: 10px;
+}
+
+.arrow {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background-color: black;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+.login-container {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.login-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.login-btn {
+    background-color: blue;
+    color: black;
+}
+
+.login-btn:hover {
+    background-color: blue;
+}
+
+.signup-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background-color: black;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-btn:hover {
+    background-color: #333;
+}
+
+.signup-btn:hover {
+    background-color: #333;
+}

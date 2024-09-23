@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: grey;
+    color: black;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh; /* This ensures the button is centered vertically on the page */
+      margin: 0;
+}
+
+ .btn:hover {
+    background-color: #333;
+}
+
+ .signup-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 5px;
+    font-size: 40px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background-color: lightgray;
+    color: red;
+    border: solid black;
+    border-radius: 20px;
+}
+
+.signup-btn:hover {  
+     background-color: #333;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: lightgray;
+      padding: 20px;
+      box-sizing: border-box;
+}
